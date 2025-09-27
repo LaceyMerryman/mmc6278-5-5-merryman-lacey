@@ -3,9 +3,8 @@ const mysql = require("mysql2");
 const config = process.env.JAWSDB_URL || {
   connectionLimit: 10,
   host: "localhost",
-  user: "sp84cq2uad0vt0tt",
-  password: "ddmqzixtrpd52hf0",
-  database: "music_shop",
+  user: "root",
+  database: process.env.npm_package_config_DB_NAME,
 };
 const db = mysql.createPool(config);
 
