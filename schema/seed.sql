@@ -1,5 +1,3 @@
-USE music_shop_db;
-
 INSERT INTO inventory (name, image, description, quantity, price)
 VALUES
   ("Stratocaster", "strat.jpg", "One of the most iconic electric guitars ever made.", 3, 599.99),
