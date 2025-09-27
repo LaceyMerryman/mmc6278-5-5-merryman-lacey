@@ -1,3 +1,5 @@
+USE music_shop_db;
+
 CREATE TABLE inventory (
   id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
